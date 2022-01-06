@@ -1,0 +1,21 @@
+package com.te.configurationscan;
+
+public class Yashwanth {
+	@Override
+	public void makesound() {
+		System.out.println("bow");
+	}
+
+	@Override
+	public void eat() {
+		System.out.println("food");
+
+	}
+
+	@Override
+	public boolean ispet() {
+
+		return false;
+	}
+
+}

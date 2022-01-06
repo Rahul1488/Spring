@@ -1,0 +1,19 @@
+package com.te.springassignment;
+
+public class Developer implements Company {
+	String name;
+	Double salary;
+
+	@Override
+	public void designation() {
+		System.out.println("we are developers ");
+	}
+
+	public Developer(String name, Double salary) {
+		super();
+		this.name = name;
+		this.salary = salary;
+	}
+	
+
+}

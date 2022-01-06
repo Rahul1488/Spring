@@ -1,0 +1,10 @@
+package com.te.beanlifecycle;
+
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class MyClass {
+public static void main(String[] args) {
+	ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig);
+}
+}

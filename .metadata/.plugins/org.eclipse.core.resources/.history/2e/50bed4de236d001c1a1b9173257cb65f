@@ -1,0 +1,10 @@
+package com.te.autowiring;
+
+public class Battery {
+String name;
+
+@Override
+public String toString() {
+	return "Battery [name=" + name + "]";
+}
+}

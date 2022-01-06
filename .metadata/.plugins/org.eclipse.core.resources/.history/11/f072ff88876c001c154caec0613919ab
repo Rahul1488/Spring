@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- using constructors -->
+
+<!-- <bean class="com.te.springs.TurboEngine"></bean>
+<bean id="eng" class="com.te.springs.Engine"> 
+<constructor-arg value="Ferrari"></constructor-arg>
+<constructor-arg value="30000"></constructor-arg> </bean>
+<bean id="car" class="com.te.springs.Car"> <constructor-arg ref="eng"></constructor-arg>
+<constructor-arg value="TataNano"></constructor-arg>
+</bean> -->
+
+<!-- using setters method -->
+<!-- <bean id="eng" class="com.te.springs.Engine">
+<property name="name" value="Tata Sumo"></property>
+<property name="name" value="1500.00"></property>
+</bean>
+<bean id="car" class="com.te.springs.Car">
+<property name="e" ref="car"></property>
+<property name="name" value="Tata Nano"></property>
+</bean> -->
+
+<bean class="com.te.springs.Demo"></bean>
+</beans>

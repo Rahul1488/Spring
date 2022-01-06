@@ -1,0 +1,13 @@
+package com.te.beanconfigurations;
+
+public class Pet {
+	String name;
+	Animals animals;
+
+	public void doThings() {
+		if (animals.ispet()) {
+			animals.eat();
+			animals.makesound();
+		}
+	}
+}

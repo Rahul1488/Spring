@@ -1,0 +1,11 @@
+package com.te.springannotationsmixed;
+
+public class Company {
+Employee employee;
+
+@Override
+public String toString() {
+	return "Company [employee=" + employee + "]";
+}
+
+}

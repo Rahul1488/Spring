@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.te.springs.Garage"/>
+    <fullyQualifiedTypeName name="com.te.springs.Car"/>
+    <fullyQualifiedTypeName name="com.te.springs.Engine"/>
+    <fullyQualifiedTypeName name="com.te.springs.Demo"/>
+    <fullyQualifiedTypeName name="com.te.springassignment.Developer"/>
+    <fullyQualifiedTypeName name="com.te.springassignment.Company"/>
+    <fullyQualifiedTypeName name="com.te.springassignment.Testers"/>
+    <fullyQualifiedTypeName name="org.springframework.core.env.CommandLinePropertySource"/>
+    <fullyQualifiedTypeName name="com.te.autowiring.Laptop"/>
+    <fullyQualifiedTypeName name="com.te.springannotations.MockRating"/>
+    <fullyQualifiedTypeName name="com.te.springannotations.Salary"/>
+    <fullyQualifiedTypeName name="com.te.springannotationsmixed.Company"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.te.springannotationsmixed.Employee"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.te.beanconfigurations.Animals"/>
+    <fullyQualifiedTypeName name="com.te.beanconfigurations.Dog"/>
+    <fullyQualifiedTypeName name="com.te.beanconfigurations.Praveen"/>
+    <fullyQualifiedTypeName name="com.te.beanconfigurations.Yashwanth"/>
+    <fullyQualifiedTypeName name="com.te.beanconfigurations.Pet"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.te.beanconfigurations.beanconfig.Config"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="com.te.configurationscan.Animals"/>
+    <fullyQualifiedTypeName name="com.te.configurationscan.test.Demo"/>
+    <fullyQualifiedTypeName name="com.te.configurationscan.beanconfig.Config"/>
+    <fullyQualifiedTypeName name="com.te.configurationscan.Pet"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Conditional"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.te.beanlifecycle.BeanConfig"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+</qualifiedTypeNameHistroy>

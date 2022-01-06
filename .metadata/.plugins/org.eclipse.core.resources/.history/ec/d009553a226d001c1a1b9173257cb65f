@@ -1,0 +1,6 @@
+package com.te.autowiring;
+
+public class Laptop {
+Screen s;
+Battery b;
+}

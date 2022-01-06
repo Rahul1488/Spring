@@ -1,0 +1,8 @@
+package com.te.springs;
+
+public class Engine implements Garage {
+	@Override
+public void start() {
+	System.out.println("Engine has started");
+}
+}

@@ -1,0 +1,8 @@
+package com.te.springannotationsmixed;
+
+public class Employee {
+String companyName;
+int dev;
+int test;
+
+}

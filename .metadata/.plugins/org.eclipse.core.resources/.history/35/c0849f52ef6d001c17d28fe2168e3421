@@ -1,0 +1,5 @@
+package com.te.beanconfigurations;
+
+public class Dog implements Animals{
+
+}

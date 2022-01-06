@@ -1,0 +1,16 @@
+package com.te.springs;
+
+public class Car {
+Garage e;
+String name;
+public Car(Garage e) {
+	System.out.println("car Object is created");
+	super();
+	this.e = e;
+}
+public void move() {
+	e.start();
+	System.out.println("car is moving");
+}
+
+}

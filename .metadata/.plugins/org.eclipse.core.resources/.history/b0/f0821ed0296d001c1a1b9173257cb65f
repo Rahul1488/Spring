@@ -1,0 +1,23 @@
+package com.te.autowiring;
+
+public class Laptop {
+	Screen s;
+	Battery b;
+	Hardisk h1;
+	Hardisk h2;
+
+	public void setS(Screen s) {
+		this.s = s;
+	}
+
+	public void setB(Battery b) {
+		System.out.println("from setters of battery");
+		this.b = b;
+	}
+
+	@Override
+	public String toString() {
+		return "Laptop [s=" + s + ", b=" + b + "]";
+	}
+
+}

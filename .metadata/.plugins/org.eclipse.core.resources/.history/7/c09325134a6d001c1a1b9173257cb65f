@@ -1,0 +1,6 @@
+package com.te.springannotationsmixed;
+
+public class Company {
+Employee employee;
+
+}

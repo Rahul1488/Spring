@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+<!-- using developeer class im setting the value here -->
+<!-- bean definitions here -->
+<bean id="dev" class="com.te.springassignment.Developer">
+<constructor-arg value="scrum 3"></constructor-arg>
+<constructor-arg value="50000.00"></constructor-arg>
+</bean>
+
+
+
+</beans>

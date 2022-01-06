@@ -1,0 +1,6 @@
+package com.te.beanconfigurations.beanconfig;
+
+public class Config {
+	
+public Dog getDog() {}
+}

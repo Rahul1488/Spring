@@ -1,0 +1,24 @@
+package com.te.springassignment;
+
+public class Testers implements Company {
+	String name;
+	double eid;
+	
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public void setEid(double eid) {
+		this.eid = eid;
+	}
+
+
+	@Override
+	public void designation() {
+		System.out.println(name +" we are testers and our salary is "+salary);
+		
+	}
+
+}

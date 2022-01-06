@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- autowire  from  bytype -->
+ <!--    <bean class="com.te.autowiring.Laptop" autowire="byType"></bean>
+    <bean class="com.te.autowiring.Battery"></bean>
+    <bean class="com.te.autowiring.Screen"></bean> -->
+    
+     <!-- autowire from byname -->
+<!--     <bean class="com.te.autowiring.Laptop" autowire="byName"></bean>
+    <bean id="b" class="com.te.autowiring.Battery"></bean>
+    <bean id="s" class="com.te.autowiring.Screen"></bean>
+    <bean id="h1"   class="com.te.autowiring.Hardisk">
+    <property name="name" value="Seagate"></property>
+    </bean>
+    <bean id="h2" class="com.te.autowiring.Hardisk">
+    <property name="name" value="Sandisk"></property></bean>
+     -->
+
+ <!-- autowire from using constructor here we acn use the both values of properties and constructors-->
+ 
+<!--  <bean class="com.te.autowiring.Laptop" autowire="constructor"></bean>
+    <bean id="b" class="com.te.autowiring.Battery"></bean>
+    <bean id="s" class="com.te.autowiring.Screen"></bean>
+    <bean id="h1"   class="com.te.autowiring.Hardisk">
+  <constructor-arg value="Landisk"></constructor-arg>
+    </bean>
+    <bean id="h2" class="com.te.autowiring.Hardisk">
+   <constructor-arg value="Cruiseblade"></constructor-arg></bean> -->
+   
+    <!-- utowire for no-->
+   <!-- <bean class="com.te.autowiring.Laptop" autowire="no"></bean>
+    <bean id="b" class="com.te.autowiring.Battery"></bean>
+    <bean id="s" class="com.te.autowiring.Screen"></bean>
+    <bean id="h1"   class="com.te.autowiring.Hardisk">
+    <property name="name" value="Seagate"></property>
+    </bean>
+    <bean id="h2" class="com.te.autowiring.Hardisk">
+    <property name="name" value="Sandisk"></property></bean>
+     -->
+    
+        <!-- utowire for default-->
+   <bean class="com.te.autowiring.Laptop" autowire="byType"></bean>
+    <bean id="b" class="com.te.autowiring.Battery"></bean>
+    <bean id="s" class="com.te.autowiring.Screen"></bean>
+    <bean id="h1"   class="com.te.autowiring.Hardisk">
+    <property name="name" value="Seagate"></property>
+    </bean>
+
+</beans>

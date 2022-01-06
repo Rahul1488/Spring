@@ -1,0 +1,15 @@
+package com.te.beanconfigurations.beanconfig;
+
+import com.te.beanconfigurations.Dog;
+import com.te.beanconfigurations.Praveen;
+
+public class Config {
+
+	public Dog getDog() {
+		return new Dog();
+	}
+
+	public Praveen getPraveen() {
+		return new Praveen();
+	}
+}

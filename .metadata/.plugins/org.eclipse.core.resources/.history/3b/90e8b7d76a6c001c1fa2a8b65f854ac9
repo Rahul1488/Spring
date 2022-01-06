@@ -1,0 +1,7 @@
+package com.te.springs;
+
+public interface Garage {
+public void start() {
+	
+}
+}

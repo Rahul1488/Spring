@@ -1,0 +1,10 @@
+package com.te.springassignment;
+
+public class Developer implements Company{
+
+	@Override
+	public void designation() {
+		System.out.println("we are developers ");
+	}
+
+}

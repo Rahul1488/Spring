@@ -1,0 +1,14 @@
+package com.te.springassignment;
+
+public class Testers implements Company {
+	String name;
+	double eid;
+	
+
+	@Override
+	public void designation() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
